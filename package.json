@@ -2,7 +2,7 @@
   "scripts": {
     "api": "node ratingsAPI.js",
     "lint": "eslint **/*.{js,jsx} --quiet",
-    "format": "prettier --write --tab-width=2 --single-quote --print-width=110 --parser-flow \"js/**/*.{js,jsx}\""
+    "format": "prettier --write --tab-width=2 --single-quote --print-width=110 --parser=flow \"js/**/*.{js,jsx}\""
   },
   "dependencies": {
     "axios": "0.16.1",
